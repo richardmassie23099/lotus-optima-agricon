@@ -766,7 +766,6 @@ section {
 
 .lisensi p {
   font-size: 16px;
-  margin-left: 40px;
   margin-top: 10px;
 }
 
@@ -832,13 +831,11 @@ section {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 40px;
-  text-align: justify;
 }
 
 .lisensi1 h5 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  text-align: justify;
 }
 
 .lisensi1 img {
