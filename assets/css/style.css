@@ -733,7 +733,7 @@ section {
 --------------------------------------------------------------*/
 .lisensi {
   padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   background-size: cover;
 }
 
@@ -972,6 +972,7 @@ section {
 --------------------------------------------------------------*/
 .features2 {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .features2 .icon-box {
@@ -1044,6 +1045,7 @@ section {
 --------------------------------------------------------------*/
 .features3 {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .features3 .icon-box {
@@ -1070,8 +1072,6 @@ section {
   width: 200px;
   height: 3px;
   background: var(--color-primary);
-  left: 0;
-  bottom: 0;
 }
 
 .features3 .icon-box h4 {
@@ -1180,7 +1180,6 @@ section {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 60px 0;
 }
 
 .cta h3 {
@@ -1208,6 +1207,28 @@ section {
 }
 
 .cta .cta-btn:hover {
+  background: #ffc451;
+  border-color: #ffc451;
+  color: #151515;
+}
+
+/*--------------------------------------------------------------
+# Btn
+--------------------------------------------------------------*/
+.btn {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn:hover {
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
